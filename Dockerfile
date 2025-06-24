@@ -1,4 +1,4 @@
-FROM node
+FROM node:24
 WORKDIR /app
 RUN useradd -b /app nodejs && chown -R nodejs:nodejs /app
 USER nodejs
